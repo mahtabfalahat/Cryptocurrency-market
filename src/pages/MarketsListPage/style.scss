@@ -1,0 +1,123 @@
+.markets-list-page {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+    color: var(--text-color);
+
+    &.light {
+        --background-color: #ffffff;
+        --text-color: #000000;
+
+        .theme-btn,
+        .lng-btn {
+            color: #000;
+            cursor: pointer;
+        }
+
+        input {
+            background-color: transparent;
+            color: #000;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            width: 100%;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    /* Dark Theme */
+    &.dark {
+        --background-color: #1e1e1e;
+        --text-color: #ffffff;
+
+        .theme-btn,
+        .lng-btn {
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input {
+            background-color: transparent;
+            color: #fff;
+            padding: 10px;
+            border-radius: 4px;
+            width: 100%;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.theme-btn {
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+.lng-btn {
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.filter-container button {
+    background-color: transparent;
+    color: #ccc;
+    border: none;
+}
+
+.sort-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    color: #ccc;
+}
+
+.market-item-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    padding-bottom: 20px;
+    overflow-y: auto;
+}
+
+.market-item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 98%;
+    margin: auto;
+    align-items: center;
+    align-content: center;
+    border-bottom: 1px solid #e6e6e6;
+}

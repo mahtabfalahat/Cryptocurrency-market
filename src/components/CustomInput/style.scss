@@ -1,0 +1,38 @@
+.custom-input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    width: 80%;
+    background-color: transparent;
+
+    &.en {
+        flex-direction: row;
+    }
+
+    &.fa {
+        flex-direction: row-reverse;
+    }
+
+    .search-icon {
+        margin: 0 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.custom-input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    flex: 1;
+
+    &.en {
+        text-align: left;
+    }
+
+    &.fa {
+        text-align: right;
+    }
+}

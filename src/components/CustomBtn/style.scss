@@ -1,0 +1,40 @@
+.custom-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #007bff;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+
+    &:hover {
+        background-color: transparent;
+    }
+
+    &:disabled {
+        background-color: gray;
+        cursor: not-allowed;
+    }
+
+    .button-icon {
+        width: 16px;
+        height: 16px;
+
+        &.left {
+            margin-right: 8px;
+        }
+
+        &.right {
+            margin-left: 8px;
+        }
+    }
+
+    .button-label {
+        white-space: nowrap;
+    }
+}

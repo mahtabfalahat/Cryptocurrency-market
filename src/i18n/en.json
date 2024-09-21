@@ -1,0 +1,13 @@
+{
+    "SearchMarket": "Search market",
+    "Name": "name",
+    "LastPrice": "last price",
+    "EnglishName": "English name",
+    "Price": "Price",
+    "24HourChanges": "24 hour changes",
+    "TradingVolume": "Trading volume",
+    "Back": "Back",
+    "Error": "Error",
+    "AnUnexpectedError": "An unexpected error occurred. Please try again later.",
+    "Loading": "Loading"
+}

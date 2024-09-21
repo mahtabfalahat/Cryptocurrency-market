@@ -1,0 +1,35 @@
+.market-info-container {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.item-icon {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.market-item p {
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.name {
+    text-align: right;
+    flex-direction: row-reverse;
+    width: 60%;
+}
+
+.price {
+    text-align: left;
+    flex-direction: row;
+    width: 40%;
+}
+
+.currency-text {
+    color: #9e9e9e;
+    font-size: 15px;
+}

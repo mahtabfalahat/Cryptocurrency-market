@@ -1,0 +1,13 @@
+{
+    "SearchMarket": "جستجوی بازار",
+    "Name": "نام",
+    "LastPrice": "آخرین قیمت",
+    "EnglishName": "نام انگلیسی",
+    "Price": "قیمت",
+    "24HourChanges": "تغییرات ۲۴ ساعته",
+    "TradingVolume": "حجم معاملاتی",
+    "Back": "بازگشت",
+    "Error": "خطا",
+    "AnUnexpectedError": "مشکلی پیش آمده. لطفا پس از دقایقی دوباره تلاش کنید",
+    "Loading": "لطفا صبر کنید"
+}
